@@ -4,9 +4,130 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 
 <body>
+	 <div class="container mt-5">
+        <!-- Block Heading -->
+        <div class="block-heading">
+            <h1>Shopping cart</h1>
+            <div class="customer-note">
+                The customer is very important, the customer will be followed by the customer. Now, as an urn, I have no right to be in possession of property.
+            </div>
+        </div>
+        
+        <div class="row">
+            <!-- Products Section -->
+            <div class="col-lg-8">
+                <!-- Product 1 -->
+                <div class="product">
+                    <div class="row align-items-center">
+                        <div class="col-md-2">
+                            <img src="https://via.placeholder.com/80x120/f5f5dc/000000?text=Phone" alt="Phone" class="img-fluid">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-info">
+                                <h6>I am very sorry</h6>
+                                <div class="product-details">
+                                    Display: 5 inches<br>
+                                    RAM: 4GB<br>
+                                    Memory: 32GB
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="qty1" class="form-label">Quantity:</label>
+                            <input type="number" id="qty1" class="form-control quantity-input" value="0" min="0">
+                        </div>
+                        <div class="col-md-3 text-end">
+                            <div class="price">$120</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product">
+                    <div class="row align-items-center">
+                        <div class="col-md-2">
+                            <img src="https://via.placeholder.com/80x120/f5f5dc/000000?text=Phone" alt="Phone" class="img-fluid">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-info">
+                                <h6>I am very sorry</h6>
+                                <div class="product-details">
+                                    Display: 5 inches<br>
+                                    RAM: 4GB<br>
+                                    Memory: 32GB
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="qty2" class="form-label">Quantity:</label>
+                            <input type="number" id="qty2" class="form-control quantity-input" value="1" min="0">
+                        </div>
+                        <div class="col-md-3 text-end">
+                            <div class="price">$120</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product">
+                    <div class="row align-items-center">
+                        <div class="col-md-2">
+                            <img src="https://via.placeholder.com/80x120/f5f5dc/000000?text=Phone" alt="Phone" class="img-fluid">
+                        </div>
+                        <div class="col-md-4">
+                            <div class="product-info">
+                                <h6>I am very sorry</h6>
+                                <div class="product-details">
+                                    Display: 5 inches<br>
+                                    RAM: 4GB<br>
+                                    Memory: 32GB
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="qty3" class="form-label">Quantity:</label>
+                            <input type="number" id="qty3" class="form-control quantity-input" value="1" min="0">
+                        </div>
+                        <div class="col-md-3 text-end">
+                            <div class="price">$120</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Summary Section -->
+            <div class="col-lg-4">
+                <div class="summary">
+                    <h5>Summary</h5>
+                    <div class="summary-item">
+                        <span>Subtotal</span>
+                        <span>$360</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Discount</span>
+                        <span>$0</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Shipping</span>
+                        <span>$0</span>
+                    </div>
+                    <div class="summary-item">
+                        <span>Total</span>
+                        <span>$360</span>
+                    </div>
+                    <div class="mt-3">
+                        <button class="btn btn-primary checkout-btn">checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
