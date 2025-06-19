@@ -1,16 +1,16 @@
- .block-heading {
+.block-heading {
             color: #3b99e0;
-            text-align: center;
+            text-align: center !important;
             margin-bottom: 2rem;
         }
         
         .block-heading h2 {
             color: #3b99e0;
-            text-align: center;
+            text-align: center !important;
         }
         
         .block-heading p {
-            text-align: center;
+            text-align: center !important;
             background-color: #f8f9fa;
             border-left: 4px solid #3b99e0;
             padding: 1rem;
